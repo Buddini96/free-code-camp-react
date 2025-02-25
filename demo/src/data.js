@@ -1,0 +1,38 @@
+export default [
+    {
+        id: 1,
+        img: "https://i.pinimg.com/736x/01/f1/7b/01f17b1cfc6bd0fbbb6b47aa9ba404e7.jpg",
+        title: "Mount Fuji",
+        country: "Japan",
+        googleMapLink: "https://goo.gl/maps/2r3bM1KqF4T2",
+        dates: "12th March 2023 - 18th March 2023",
+        text: "Mount Fuji is Japan's tallest peak and an iconic symbol of the country. The breathtaking views from the summit and the surrounding five lakes make it a must-visit destination.",
+      },
+      {
+        id: 2,
+        img: "https://i.pinimg.com/736x/74/d6/0d/74d60d290294e8ad7ade73e2a5261851.jpg",
+        title: "Eiffel Tower",
+        country: "France",
+        googleMapLink: "https://goo.gl/maps/xXg2PzvEihM2",
+        dates: "5th June 2023 - 10th June 2023",
+        text: "The Eiffel Tower, standing tall in Paris, is a masterpiece of iron architecture and a global symbol of romance and adventure.",
+      },
+      {
+        id: 3,
+        img: "https://i.pinimg.com/736x/b3/cd/78/b3cd78e3d6e702d5b7d005e16c0b8366.jpg",
+        title: "Grand Canyon",
+        country: "USA",
+        googleMapLink: "https://goo.gl/maps/Vq1DQbN7P1x",
+        dates: "20th September 2023 - 25th September 2023",
+        text: "The Grand Canyon is a natural wonder of the world, showcasing breathtaking landscapes carved over millions of years by the Colorado River.",
+      },
+      {
+        id: 4,
+        img: "https://i.pinimg.com/736x/ca/78/76/ca7876e7e6e45c60e6e47a8e8defc1a4.jpg",
+        title: "Santorini",
+        country: "Greece",
+        googleMapLink: "https://goo.gl/maps/4JbTbNqT1vG2",
+        dates: "1st November 2023 - 7th November 2023",
+        text: "Santorini, known for its white-washed buildings, blue domes, and stunning sunsets, offers a perfect escape to the Aegean Sea.",
+      },
+]
