@@ -12,10 +12,10 @@ function Entry() {
               <img src={data.img} className="w-50 h-80" />
             </div>
             <div className="flex flex-col justify-center space-y-3 w-100">
-              <div className="flex items-center">
+              <div className="flex items-center gap-3">
                 <FaLocationDot className="w-6 h-6 text-red-500" />
                 <p>
-                  <a href={data.googleMapLink}>View on google maps</a>
+                  <a href={data.googleMapLink} className="text-blue-600 underline">View on google maps</a>
                 </p>
               </div>
               <h1>{data.title}</h1>
