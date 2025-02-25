@@ -1,6 +1,6 @@
 // import fuji from '../assets/images/fuji.jpg'
 import { FaLocationDot } from "react-icons/fa6";
-import travelJournalData from "../data.js"
+import travelJournalData from "../../data.js";
 
 function Entry() {
   return (
@@ -15,12 +15,17 @@ function Entry() {
               <div className="flex items-center gap-3">
                 <FaLocationDot className="w-6 h-6 text-red-500" />
                 <p>
-                  <a href={data.googleMapLink} className="text-blue-600 underline">View on google maps</a>
+                  <a
+                    href={data.googleMapLink}
+                    className="text-blue-600 underline"
+                  >
+                    View on google maps
+                  </a>
                 </p>
               </div>
-              <h1>{data.title}</h1>
-              <h3>{data.dates}</h3>
-              <p className="leading-relaxed whitespace-pre-line">{data.text}</p>
+              <h1 className="font-bold text-lg">{data.title}</h1>
+              <h3 className="font-medium">{data.dates}</h3>
+              <p className="">{data.text}</p>
             </div>
           </div>
         </>
@@ -29,4 +34,4 @@ function Entry() {
   );
 }
 
-export default Entry
+export default Entry;
