@@ -25,7 +25,7 @@ function ChefClaude() {
     
 
   return (
-    <div className="w-3/4 md:w-1/2 lg:w-1/3 h-auto rounded-lg shadow-lg mx-auto  py-5 overflow-hidden bg-slate-100">
+    <div className="w-3/4 md:w-1/2 lg:w-1/3 h-auto rounded-lg shadow-lg mx-auto mt-5 py-5 overflow-hidden bg-slate-100">
       <div>
         <Header />
       </div>
@@ -41,7 +41,7 @@ function ChefClaude() {
               name="ingredient"
               type="text"
               placeholder="e.g: Orange"
-              className="border-none bg-slate-50 p-1 rounded-md w-full"
+              className="border-none bg-slate-50 p-3 rounded-md w-full"
             />
             <button className="text-white font-bold p-1 rounded-md bg-black">
               + Add ingrediants

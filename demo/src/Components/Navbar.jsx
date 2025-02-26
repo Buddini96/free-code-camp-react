@@ -4,7 +4,7 @@ function Navbar() {
     const navLinks = [
       { name: "Travel Journal", path: "/" },
       { name: "Chef Claude", path: "/chef" },
-      { name: "Contact", path: "/contact" },
+      { name: "User Contact", path: "/user" },
     ];
 
   return (
